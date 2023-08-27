@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="570.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.tictactoe.view.AboutController">
+    <children>
+        <Text fill="WHITE" layoutX="139.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get to Know Tic Tac Toe" wrappingWidth="566.1646604537964">
+            <font>
+                <Font name="Gill Sans Ultra Bold" size="38.0" />
+            </font>
+        </Text>
+        <Button layoutX="70.0" layoutY="495.0" mnemonicParsing="false" onAction="#backMainPage" style="-fx-background-color: mediumslateblue; -fx-font-weight: bold;" text="&lt;Back to Main Page" textFill="WHITE" />
+        <Text fill="WHITE" layoutX="139.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rulesText" text="Did you know that Tic-tac-toe, one of the oldest known games, has a fascinating history that dates back thousands of years? Archaeological discoveries have revealed evidence of similar grid-based games in ancient Egypt, where a 3x3 grid was found scratched into the floor of the Temple of Seti I, dating to around 1300 BCE. Additionally, the game was played in ancient Rome under the name &quot;Terni Lapilli,&quot; as mentioned in the work &quot;Satyricon&quot; by Petronius, from the 1st century CE. This enduring game's popularity and simplicity have made it a beloved pastime for countless generations, transcending cultures and time." textAlignment="JUSTIFY" wrappingWidth="566.1646728515625">
+            <font>
+                <Font name="Yu Gothic UI Semibold" size="18.0" />
+            </font>
+        </Text>
+      <ImageView fx:id="questionImage" fitHeight="150.0" fitWidth="200.0" layoutX="645.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>
